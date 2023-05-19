@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1530px) {
+    html body {
+        #informational_menu {
+            margin-right: -70px;
+            padding-right: 70px;
+        }
+    }
+
+}
+
+#informational_menu{
+	margin-top: -15px;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	background-color: #e3e3e3;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+	
+	> div{
+		margin-bottom: 15px;
+		padding: 0 15px;
+	}
+	
+	.year_navigation{
+		
+		
+		> div{
+			float: left;
+			margin-right: 8px;
+		}
+		
+		.sn_arrows{
+			.btn{
+				padding: 12px 10px;
+			}
+		}
+		/*
+		.farm_picker{
+			.btn{
+				padding: 6px;
+			}
+		}
+		
+		.year_info{
+			.yi_name{
+				font-size: 18px;
+				font-weight: bold;
+			}
+			
+			.yi_farmtype{
+				font-size: 16px;
+				color: #777;
+				text-transform: capitalize;
+			}
+		}*/
+	}
+	/*
+	.season_stats{
+		position: relative;
+		font-size: 12px;
+		background-color: #f0f0f0;
+		border: 1px solid #ccc;
+		border-right-width: 3px;
+		border-left-width: 3px;
+		
+		.table{
+			margin-bottom: 0;
+			border-top: 0;
+			
+			tr:first-child{
+				th, td{
+					border-top: 0;
+				}
+			}
+		}
+		
+		.asc_icon{
+			margin: 0 5px;
+			color: #777;
+		}
+	}
+	
+	.clear_buttons{
+		.btn-block + .btn-block{
+			margin-top: 2px;
+		}
+	}*/
+}
+

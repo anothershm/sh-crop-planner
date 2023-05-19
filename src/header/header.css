@@ -1,0 +1,41 @@
+header{
+	margin: 10px auto;
+	max-width: var(--ccontent_max_width);
+	cursor: default;
+
+    .logo{
+        height: 60px;
+        width: auto;
+    }
+        
+    .page_title{
+        border-image-source: var(--background-url);
+        border-image-slice: 60;
+        border-image-width: 70px;
+        border-image-outset: unset;
+        border-image-repeat: repeat;
+        border-radius: 50px;
+        border-width: unset;
+        border-style: solid;
+
+
+        font-family: "Otomanopee One";
+        font-size: 28px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: white;
+        text-shadow: -1px 2px 0 rgba(90, 0, 0, .6);
+
+        padding: 5px 15px 5px 15px;
+        display: inline-block;
+        margin-left: 15px;
+        position: relative;
+        top: 7px;
+
+        background-color: #fff0;
+        background: #2d1a05;
+        vertical-align: middle;
+        text-align: center;
+    }
+}
+

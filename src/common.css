@@ -1,0 +1,18 @@
+.sh-btn {
+    border-image-source: var(--background-url);
+    border-image-slice: 60;
+    border-image-width: 70px;
+    border-image-outset: unset;
+    border-image-repeat: repeat;
+    border-radius: 50px;
+    border-width: unset;
+    border-style: solid;
+    width: auto;
+    height: auto;
+}
+
+:root {
+    --ccontent_max_width: 1400px;
+    --background-url:url(https://static.wikia.nocookie.net/sun-haven/images/0/03/Infobox_name.png/);
+  }
+  

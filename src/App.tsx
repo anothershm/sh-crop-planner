@@ -1,26 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from './header/header'
+import Loading from './loadingSpin/loadingSpin'
 import './App.css';
+import './common.css';
+import InformationalMenu from './informationalMenu/informationalMenu';
+
+
+import { useState } from 'react';
+
 
 function App() {
+
+  const [year, setYear] = useState(1);
+
+  const isLoading = false;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+
+      <div id="main_container" className="container">
+        {isLoading ? (
+          <Loading />
+        ) : (
+          <InformationalMenu year={year} setYear={setYear}/>
+        )}
+      </div>
+
     </div>
   );
 }
 
 export default App;
+
+export interface IYear {
+  year: number;
+  setYear: React.Dispatch<React.SetStateAction<number>>
+}
