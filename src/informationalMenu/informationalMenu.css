@@ -1,39 +1,44 @@
 @media only screen and (max-width: 1530px) {
-    html body {
-        #informational_menu {
-            margin-right: -70px;
-            padding-right: 70px;
-        }
-    }
+	html body {
+		#informational_menu {
+			margin-right: -70px;
+			padding-right: 70px;
+		}
+	}
 
 }
 
-#informational_menu{
+#informational_menu {
 	margin-top: -15px;
 	margin-bottom: 10px;
 	padding-top: 15px;
 	background-color: #e3e3e3;
 	border-bottom: 1px solid #ccc;
 	position: relative;
-	
-	> div{
+
+	>div {
 		margin-bottom: 15px;
 		padding: 0 15px;
 	}
-	
-	.year_navigation{
-		
-		
-		> div{
+
+
+	.year_navigation {
+
+
+		>div {
 			float: left;
 			margin-right: 8px;
 		}
-		
-		.sn_arrows{
-			.btn{
-				padding: 12px 10px;
+
+
+		.sn_arrows {
+			>button {
+				padding: 6px 10px;
+				margin-right: 5px;
 			}
 		}
+
+
 		/*
 		.farm_picker{
 			.btn{
@@ -54,6 +59,7 @@
 			}
 		}*/
 	}
+
 	/*
 	.season_stats{
 		position: relative;
@@ -86,4 +92,3 @@
 		}
 	}*/
 }
-
