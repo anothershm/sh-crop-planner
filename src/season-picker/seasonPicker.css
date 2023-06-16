@@ -1,0 +1,72 @@
+#season_picker {
+	overflow: hidden;
+	margin: 0;
+
+
+	.active {
+		opacity: 1;
+		bottom: -2px;
+	}
+
+	.deactive {
+		opacity: 0.5;
+		bottom: -6px;
+	}
+
+	:hover {
+		opacity: 0.8;
+	}
+
+
+	.season {
+		height: 40px;
+		padding: 2px 12px;
+		padding-bottom: 4px;
+		border-bottom: 0;
+		cursor: pointer;
+		position: relative;
+
+		.image {
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 16px;
+			width: auto;
+			margin: 10px 8px;
+		}
+
+		.name {
+			font-size: 18px;
+			margin-left: 28px;
+			margin-top: 2px;
+			text-transform: capitalize;
+			color: #fff;
+		}
+
+
+
+		.profit {
+			position: absolute;
+			top: 5px;
+			right: 26px;
+			font-size: 12px;
+			line-height: 11px;
+
+
+			.min {
+				top: 9px;
+				right: 12px;
+				font-size: 13px;
+			}
+
+			.asc_icon {
+				position: absolute;
+				top: 5px;
+				right: -20px;
+				font-size: 14px;
+				color: #777;
+			}
+		}
+
+	}
+}

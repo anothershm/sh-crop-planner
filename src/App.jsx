@@ -4,7 +4,8 @@ import Loading from './loadingSpin/loadingSpin'
 import './App.css';
 import './common.css';
 import InformationalMenu from './informationalMenu/informationalMenu';
-
+import SeasonPicker from './season-picker/seasonPicker';
+import Calendar from './calendar/calendar';
 
 import { Seasons, FarmType, Config } from './common/config';
 
@@ -34,10 +35,14 @@ function App() {
         {isLoading ? (
           <Loading />
         ) : (
-          <InformationalMenu {...config} onChangeYear={onChangeYear.bind(this)}  onChangeFarm = {onChangeFarm.bind(this)}/>
+          <>
+          <InformationalMenu {...config} onChangeYear={onChangeYear.bind(this)}  onChangeFarm = {onChangeFarm.bind(this)} />
+          <SeasonPicker season={season} setSeason={setSeason} />
+          <Calendar />
+          </>
         )}
       </div>
-
+     
     </div>
   );
 }

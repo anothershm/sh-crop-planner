@@ -20,10 +20,10 @@ function InformationalMenu({ year, season, farmType, onChangeYear, onChangeFarm 
             <div className="col-md-3 col-xs-12 year_navigation">
                 <YearButtons year={year} onChangeYear={onChangeYear} />
 
-                <FarmPicker farm={farmType} onChangeFarm={onChangeFarm}></FarmPicker>
+                <FarmPicker farm={farmType} onChangeFarm={onChangeFarm} />
 
-                <Information year={year} season={season} farmType={farmType}></Information>
-                ¡
+                <Information year={year} season={season} farmType={farmType} />
+
             </div>
         </nav>
     );
