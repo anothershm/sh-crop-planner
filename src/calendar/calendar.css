@@ -1,0 +1,137 @@
+:root {
+	--day_width: 14.285714285714285714285714285714%;
+}
+
+#calendar {
+	background-color: #FBEBC2;
+	border: 3px solid var(--border_color);
+	min-height: 687px;
+
+
+	.day_name {
+		width: var(--day_width);
+		float: left;
+		box-sizing: border-box;
+		text-align: center;
+		font-size: 22px;
+		padding: 4px;
+
+	}
+
+	.day_container {
+
+		.day {
+			width: var(--day_width);
+			height: 160px;
+			float: left;
+			box-sizing: border-box;
+			padding: 4px;
+			position: relative;
+			border-right: 2px solid var(--border_color);
+			border-top: 2px solid var(--border_color);
+			background-color: #DDD1B2;
+			cursor: pointer;
+
+
+			:nth-child(7n) {
+				border-right: 0;
+			}
+
+			:hover {
+				background-color: darken(#DDD1B2, 7%);
+			}
+
+
+			.date_top {
+				height: 26px;
+				position: relative;
+
+				.date {
+					position: absolute;
+					top: 0px;
+					left: 4px;
+					font-size: 18px;
+
+				}
+
+				.event {
+					position: absolute;
+					top: 3px;
+					left: 30px;
+					right: 0;
+					font-size: 13px;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+					overflow: hidden;
+					color: #555;
+
+					img {
+						width: 16px;
+						height: auto;
+						image-rendering: pixelated;
+					}
+				}
+			}
+
+			.planting,
+			.harvesting {
+				padding-bottom: 11px;
+
+				.plan {
+					float: left;
+					position: relative;
+					margin-right: 10px;
+
+					img {
+						width: 24px;
+						height: auto;
+					}
+
+					.amount {
+						position: absolute;
+						bottom: -9px;
+						right: -8px;
+						color: #000;
+						font-size: 12px;
+						line-height: 10px;
+
+					}
+
+
+				}
+			}
+
+			.more {
+				font-size: 13px;
+				color: #777;
+				margin-top: -6px;
+			}
+
+			.profit {
+				position: absolute;
+				left: 13px;
+				bottom: -3px;
+				margin: 5px;
+				font-size: 12px;
+				line-height: 12px;
+				font-weight: bold;
+
+				.min {
+					left: 0;
+					bottom: 3px;
+					font-size: 13px;
+				}
+
+				>div {}
+
+				.asc_icon {
+					position: absolute;
+					bottom: 4px;
+					left: -16px;
+					font-size: 14px;
+					color: #777;
+				}
+			}
+		}
+	}
+}

@@ -1,6 +1,6 @@
 header{
 	margin: 10px auto;
-	max-width: var(--ccontent_max_width);
+	max-width: var(--content_max_width);
 	cursor: default;
 
     .logo{

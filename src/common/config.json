@@ -1,0 +1,1408 @@
+{
+    "crops": {
+        "Sun Haven": [
+            {
+                "index": 1,
+                "id": "armoranth",
+                "name": "Armoranth",
+                "buy": 60,
+                "sell": 75,
+                "yeld": 1,
+                "grow": 4,
+                "regrow": 0,
+                "seasons": [
+                    "Spring",
+                    "Summer"
+                ]
+            },
+            {
+                "index": 2,
+                "id": "cranberry",
+                "name": "Cranberry",
+                "buy": 300,
+                "sell": 40,
+                "yeld": 1,
+                "grow": 7,
+                "regrow": 2,
+                "seasons": [
+                    "Fall"
+                ]
+            },
+            {
+                "index": 3,
+                "id": "honeysuckle",
+                "name": "Honeysuckle",
+                "buy": 400,
+                "sell": 35,
+                "yeld": 2,
+                "grow": 10,
+                "regrow": 3,
+                "seasons": [
+                    "Summer",
+                    "Fall"
+                ]
+            },
+            {
+                "index": 4,
+                "id": "cotton",
+                "name": "Cotton",
+                "buy": 250,
+                "sell": 15,
+                "yeld": 3,
+                "grow": 5,
+                "regrow": 3,
+                "seasons": [
+                    "Summer",
+                    "Fall"
+                ]
+            },
+            {
+                "index": 5,
+                "id": "chocoberry",
+                "name": "Chocoberry",
+                "buy": 45,
+                "sell": 12,
+                "yeld": 3,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Spring",
+                    "Summer"
+                ]
+            },
+            {
+                "index": 6,
+                "id": "coffeeBean",
+                "name": "Coffee Bean",
+                "buy": 200,
+                "sell": 35,
+                "yeld": 1,
+                "grow": 7,
+                "regrow": 3,
+                "seasons": [
+                    "Summer",
+                    "Fall"
+                ]
+            },
+            {
+                "index": 7,
+                "id": "candyCane",
+                "name": "Candy Cane",
+                "buy": 300,
+                "sell": 40,
+                "yeld": 1,
+                "grow": 3,
+                "regrow": 2,
+                "seasons": [
+                    "Winter"
+                ]
+            },
+            {
+                "index": 7,
+                "id": "candyCane",
+                "name": "Candy Cane",
+                "buy": 300,
+                "sell": 40,
+                "yeld": 1,
+                "grow": 3,
+                "regrow": 2,
+                "seasons": [
+                    "Winter"
+                ]
+            },
+            {
+                "index": 8,
+                "id": "durian",
+                "name": "Durian",
+                "buy": 180,
+                "sell": 340,
+                "yeld": 1,
+                "grow": 9,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall"
+                ]
+            },
+            {
+                "index": 9,
+                "id": "pumpkin",
+                "name": "Pumpkin",
+                "buy": 300,
+                "sell": 575,
+                "yeld": 1,
+                "grow": 18,
+                "regrow": 0,
+                "seasons": [
+                    "Fall"
+                ]
+            },
+            {
+                "index": 10,
+                "id": "cinnaberry",
+                "name": "Cinnaberry",
+                "buy": 175,
+                "sell": 220,
+                "yeld": 1,
+                "grow": 10,
+                "regrow": 0,
+                "seasons": [
+                    "Spring"
+                ]
+            },
+            {
+                "index": 11,
+                "id": "grapes",
+                "name": "Grapes",
+                "buy": 60,
+                "sell": 75,
+                "yeld": 1,
+                "grow": 1,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 12,
+                "id": "greenBeans",
+                "name": "Green Beans",
+                "buy": 200,
+                "sell": 20,
+                "yeld": 1,
+                "grow": 13,
+                "regrow": 1,
+                "seasons": [
+                    "Spring"
+                ]
+            },
+            {
+                "index": 13,
+                "id": "kale",
+                "name": "Kale",
+                "buy": 100,
+                "sell": 150,
+                "yeld": 1,
+                "grow": 9,
+                "regrow": 0,
+                "seasons": [
+                    "Spring"
+                ]
+            },
+            {
+                "index": 14,
+                "id": "melon",
+                "name": "Melon",
+                "buy": 200,
+                "sell": 350,
+                "yeld": 1,
+                "grow": 14,
+                "regrow": 0,
+                "seasons": [
+                    "Summer"
+                ]
+            },
+            {
+                "index": 16,
+                "id": "purpleEggplant",
+                "name": "Purple Eggplant",
+                "buy": 80,
+                "sell": 120,
+                "yield": 1,
+                "grow": 4,
+                "regrow": 0,
+                "seasons": [
+                    "Fall",
+                    "Winter"
+                ]
+            },
+            {
+                "index": 17,
+                "id": "kiwiBerry",
+                "name": "Kiwi Berry",
+                "buy": 250,
+                "sell": 40,
+                "yield": 1,
+                "grow": 8,
+                "regrow": 2,
+                "seasons": [
+                    "Spring"
+                ]
+            },
+            {
+                "index": 18,
+                "id": "starFruit",
+                "name": "Star Fruit",
+                "buy": 100,
+                "sell": 190,
+                "yield": 1,
+                "grow": 10,
+                "regrow": 0,
+                "seasons": [
+                    "Winter"
+                ]
+            },
+            {
+                "index": 19,
+                "id": "ghostPepper",
+                "name": "Ghost Pepper",
+                "buy": 180,
+                "sell": 300,
+                "yield": 1,
+                "grow": 14,
+                "regrow": 0,
+                "seasons": [
+                    "Fall",
+                    "Winter"
+                ]
+            },
+            {
+                "index": 20,
+                "id": "lemon",
+                "name": "Lemon",
+                "buy": 60,
+                "sell": 80,
+                "yield": 1,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Spring",
+                    "Summer"
+                ]
+            },
+            {
+                "index": 21,
+                "id": "snowPea",
+                "name": "Snow Pea",
+                "buy": 150,
+                "sell": 200,
+                "yield": 1,
+                "grow": 7,
+                "regrow": 0,
+                "seasons": [
+                    "Winter"
+                ]
+            },
+            {
+                "index": 22,
+                "id": "balloonFruit",
+                "name": "Balloon Fruit",
+                "buy": 160,
+                "sell": 215,
+                "yield": 1,
+                "grow": 8,
+                "regrow": 0,
+                "seasons": [
+                    "Winter"
+                ]
+            },
+            {
+                "index": 23,
+                "id": "snowBall",
+                "name": "Snow Ball",
+                "buy": 130,
+                "sell": 190,
+                "yield": 1,
+                "grow": 10,
+                "regrow": 0,
+                "seasons": [
+                    "Winter"
+                ]
+            },
+            {
+                "index": 24,
+                "id": "carrot",
+                "name": "Carrot",
+                "buy": 80,
+                "sell": 115,
+                "yield": 1,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 25,
+                "id": "onion",
+                "name": "Onion",
+                "buy": 80,
+                "sell": 115,
+                "yield": 1,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 26,
+                "id": "tomato",
+                "name": "Tomato",
+                "buy": 80,
+                "sell": 115,
+                "yield": 1,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 27,
+                "id": "heartBerry",
+                "name": "Heart Berry",
+                "buy": 143,
+                "sell": 190,
+                "yield": 1,
+                "grow": 8,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall"
+                ]
+            },
+            {
+                "index": 28,
+                "id": "potato",
+                "name": "Potato",
+                "buy": 100,
+                "sell": 85,
+                "yield": 1.5,
+                "grow": 5,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 29,
+                "id": "lettuce",
+                "name": "Lettuce",
+                "buy": 160,
+                "sell": 165,
+                "yield": 1,
+                "grow": 8,
+                "regrow": 0,
+                "seasons": [
+                    "Spring"
+                ]
+            },
+            {
+                "index": 30,
+                "id": "marshmallowBean",
+                "name": "Marshmallow Bean",
+                "buy": 120,
+                "sell": 80,
+                "yield": 2,
+                "grow": 8,
+                "regrow": 0,
+                "seasons": [
+                    "Fall",
+                    "Winter"
+                ]
+            },
+            {
+                "index": 31,
+                "id": "yam",
+                "name": "Yam",
+                "buy": 80,
+                "sell": 120,
+                "yield": 1,
+                "grow": 8,
+                "regrow": 0,
+                "seasons": [
+                    "Fall",
+                    "Winter"
+                ]
+            },
+            {
+                "index": 32,
+                "id": "garlic",
+                "name": "Garlic",
+                "buy": 80,
+                "sell": 115,
+                "yield": 1,
+                "grow": 7,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall"
+                ]
+            },
+            {
+                "index": 33,
+                "id": "peas",
+                "name": "Peas",
+                "buy": 300,
+                "sell": 75,
+                "yield": 1,
+                "grow": 12,
+                "regrow": 2,
+                "seasons": [
+                    "Spring"
+                ]
+            },
+            {
+                "index": 34,
+                "id": "corn",
+                "name": "Corn",
+                "buy": 80,
+                "sell": 55,
+                "yield": 2,
+                "grow": 7,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 35,
+                "id": "hexagonBerry",
+                "name": "Hexagon Berry",
+                "buy": 100,
+                "sell": 125,
+                "yield": 1,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Winter"
+                ]
+            },
+            {
+                "index": 36,
+                "id": "rice",
+                "name": "Rice",
+                "buy": 90,
+                "sell": 110,
+                "yield": 1,
+                "grow": 5,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 37,
+                "id": "greenroot",
+                "name": "Greenroot",
+                "buy": 60,
+                "sell": 75,
+                "yield": 1,
+                "grow": 4,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 38,
+                "id": "wheat",
+                "name": "Wheat",
+                "buy": 40,
+                "sell": 55,
+                "yield": 1,
+                "grow": 4,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 39,
+                "id": "pepper",
+                "name": "Pepper",
+                "buy": 175,
+                "sell": 240,
+                "yield": 1,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Spring",
+                    "Summer"
+                ]
+            },
+            {
+                "index": 40,
+                "id": "beet",
+                "name": "Beet",
+                "buy": 80,
+                "sell": 115,
+                "yield": 1,
+                "grow": 10,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall"
+                ]
+            },
+            {
+                "index": 41,
+                "id": "blizzardBerry",
+                "name": "Blizzard Berry",
+                "buy": 130,
+                "sell": 175,
+                "yield": 1,
+                "grow": 13,
+                "regrow": 0,
+                "seasons": [
+                    "Winter"
+                ]
+            },
+            {
+                "index": 42,
+                "id": "sugarCane",
+                "name": "Sugar Cane",
+                "buy": 80,
+                "sell": 100,
+                "yield": 1,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 43,
+                "id": "turnip",
+                "name": "Turnip",
+                "buy": 60,
+                "sell": 80,
+                "yield": 1,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Fall",
+                    "Winter"
+                ]
+            },
+            {
+                "index": 44,
+                "id": "shimmeroot",
+                "name": "Shimmeroot",
+                "buy": 400,
+                "sell": 525,
+                "yield": 1,
+                "grow": 14,
+                "regrow": 0,
+                "seasons": [
+                    "Spring",
+                    "Summer"
+                ]
+            },
+            {
+                "index": 45,
+                "id": "mango",
+                "name": "Mango",
+                "buy": 80,
+                "sell": 115,
+                "yield": 1,
+                "grow": 11,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall"
+                ]
+            },
+            {
+                "index": 46,
+                "id": "blueMoonFruit",
+                "name": "Blue Moon Fruit",
+                "buy": 100,
+                "sell": 145,
+                "yield": 1,
+                "grow": 14,
+                "regrow": 0,
+                "seasons": [
+                    "Winter"
+                ]
+            },
+            {
+                "index": 47,
+                "id": "fizzyFruit",
+                "name": "Fizzy Fruit",
+                "buy": 100,
+                "sell": 60,
+                "yield": 2,
+                "grow": 7,
+                "regrow": 0,
+                "seasons": [
+                    "Fall"
+                ]
+            },
+            {
+                "index": 48,
+                "id": "sodaPopCrop",
+                "name": "Soda Pop Crop",
+                "buy": 100,
+                "sell": 60,
+                "yield": 2,
+                "grow": 7,
+                "regrow": 0,
+                "seasons": [
+                    "Fall"
+                ]
+            },
+            {
+                "index": 49,
+                "id": "heatFruit",
+                "name": "Heat Fruit",
+                "buy": 80,
+                "sell": 90,
+                "yield": 1,
+                "grow": 4,
+                "regrow": 0,
+                "seasons": [
+                    "Fall",
+                    "Winter"
+                ]
+            },
+            {
+                "index": 50,
+                "id": "guavaBerry",
+                "name": "Guava Berry",
+                "buy": 60,
+                "sell": 80,
+                "yield": 1,
+                "grow": 8,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall"
+                ]
+            },
+            {
+                "index": 51,
+                "id": "pineapple",
+                "name": "Pineapple",
+                "buy": 80,
+                "sell": 90,
+                "yield": 1,
+                "grow": 4,
+                "regrow": 0,
+                "seasons": [
+                    "Summer"
+                ]
+            },
+            {
+                "index": 52,
+                "id": "brrNana",
+                "name": "Brr-Nana",
+                "buy": 40,
+                "sell": 45,
+                "yield": 1,
+                "grow": 2,
+                "regrow": 0,
+                "seasons": [
+                    "Winter"
+                ]
+            },
+            {
+                "index": 53,
+                "id": "teaLeaves",
+                "name": "Tea Leaves",
+                "buy": 25,
+                "sell": 15,
+                "yield": 2,
+                "grow": 4,
+                "regrow": 0,
+                "seasons": [
+                    "Fall",
+                    "Winter"
+                ]
+            },
+            {
+                "index": 54,
+                "id": "hops",
+                "name": "Hops",
+                "buy": 90,
+                "sell": 25,
+                "yield": 4,
+                "grow": 12,
+                "regrow": 0,
+                "seasons": [
+                    "Fall"
+                ]
+            },
+            {
+                "index": 55,
+                "id": "stormelon",
+                "name": "Stormelon",
+                "buy": 225,
+                "sell": 325,
+                "yield": 1,
+                "grow": 12,
+                "regrow": 0,
+                "seasons": [
+                    "Spring",
+                    "Summer"
+                ]
+            },
+            {
+                "index": 56,
+                "id": "watermelon",
+                "name": "Watermelon",
+                "buy": 500,
+                "sell": 190,
+                "yield": 1,
+                "grow": 14,
+                "regrow": 4,
+                "seasons": [
+                    "Spring",
+                    "Summer"
+                ]
+            },
+            {
+                "index": 57,
+                "id": "barley",
+                "name": "Barley",
+                "buy": 90,
+                "sell": 20,
+                "yield": 4,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Fall",
+                    "Winter"
+                ]
+            },
+            {
+                "index": 58,
+                "id": "butternut",
+                "name": "Butternut",
+                "buy": 180,
+                "sell": 40,
+                "yield": 4,
+                "grow": 10,
+                "regrow": 0,
+                "seasons": [
+                    "Fall",
+                    "Winter"
+                ]
+            },
+            {
+                "index": 59,
+                "id": "redRose",
+                "name": "Red Rose",
+                "buy": 30,
+                "sell": 21,
+                "yield": 1,
+                "grow": 4,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 60,
+                "id": "daisy",
+                "name": "Daisy",
+                "buy": 60,
+                "sell": 42,
+                "yield": 1,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 61,
+                "id": "orchid",
+                "name": "Orchid",
+                "buy": 60,
+                "sell": 42,
+                "yield": 1,
+                "grow": 5,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 62,
+                "id": "lavender",
+                "name": "Lavender",
+                "buy": 250,
+                "sell": 175,
+                "yield": 1,
+                "grow": 12,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 63,
+                "id": "tulip",
+                "name": "Tulip",
+                "buy": 120,
+                "sell": 84,
+                "yield": 1,
+                "grow": 5,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 64,
+                "id": "sunflower",
+                "name": "Sunflower",
+                "buy": 250,
+                "sell": 175,
+                "yield": 1,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 65,
+                "id": "lotus",
+                "name": "Lotus",
+                "buy": 600,
+                "sell": 420,
+                "yield": 1,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 66,
+                "id": "clover",
+                "name": "Clover",
+                "buy": 100,
+                "sell": 5,
+                "yield": 1,
+                "grow": 3,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 67,
+                "id": "lily",
+                "name": "Lily",
+                "buy": 600,
+                "sell": 420,
+                "yield": 1,
+                "grow": 4,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 15,
+                "id": "pythagoreanBerry",
+                "name": "Pythagorean Berry",
+                "buy": 345,
+                "sell": 512,
+                "yield": 1,
+                "grow": 16,
+                "regrow": 0,
+                "seasons": [
+                    "Winter"
+                ]
+            }
+        ],
+        "Ne'Vari ": [
+            {
+                "index": 1,
+                "id": "dragonFruit",
+                "name": "Dragon Fruit",
+                "buy": 30,
+                "sell": 20,
+                "yield": 2,
+                "grow": 5,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 2,
+                "id": "manaGem",
+                "name": "Mana Gem",
+                "buy": 25,
+                "sell": 13,
+                "yield": 3,
+                "grow": 8,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 3,
+                "id": "waterFruit",
+                "name": "Water Fruit",
+                "buy": 10,
+                "sell": 10,
+                "yield": 2,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 4,
+                "id": "indiglow",
+                "name": "Indiglow",
+                "buy": 20,
+                "sell": 29,
+                "yield": 1,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 5,
+                "id": "catTail",
+                "name": "Cat Tail",
+                "buy": 20,
+                "sell": 10,
+                "yield": 3,
+                "grow": 7,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 6,
+                "id": "walkChoy",
+                "name": "Walk Choy",
+                "buy": 14,
+                "sell": 9,
+                "yield": 2,
+                "grow": 3,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 7,
+                "id": "shiiwalkiMushroom",
+                "name": "Shiiwalki Mushroom",
+                "buy": 14,
+                "sell": 10,
+                "yield": 2,
+                "grow": 5,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 8,
+                "id": "fireFruit",
+                "name": "Fire Fruit",
+                "buy": 10,
+                "sell": 8,
+                "yield": 2,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 9,
+                "id": "windChime",
+                "name": "Wind Chime",
+                "buy": 8,
+                "sell": 14,
+                "yield": 1,
+                "grow": 7,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 10,
+                "id": "acorn",
+                "name": "Acorn",
+                "buy": 4,
+                "sell": 7,
+                "yield": 1,
+                "grow": 4,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 11,
+                "id": "rockFruit",
+                "name": "Rock Fruit",
+                "buy": 10,
+                "sell": 5,
+                "yield": 2,
+                "grow": 6,
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            }
+        ],
+        "WitherGate": [
+            {
+                "index": 1,
+                "id": "demonOrb",
+                "name": "Demon Orb",
+                "buy": 17,
+                "sell": 24,
+                "yield": 1,
+                "grow": "3 days",
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 2,
+                "id": "eggplant",
+                "name": "Eggplant",
+                "buy": 13,
+                "sell": 18,
+                "yield": 1,
+                "grow": "4 days",
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 3,
+                "id": "krakenKale",
+                "name": "Kraken Kale",
+                "buy": 3,
+                "sell": 6,
+                "yield": 1,
+                "grow": "4 days",
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 4,
+                "id": "moonplant",
+                "name": "Moonplant",
+                "buy": 6,
+                "sell": 11,
+                "yield": 1,
+                "grow": "6 days",
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 5,
+                "id": "razorstalk",
+                "name": "Razorstalk",
+                "buy": 4,
+                "sell": 9,
+                "yield": 1,
+                "grow": "6 days",
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 6,
+                "id": "snappyPlant",
+                "name": "Snappy Plant",
+                "buy": 13,
+                "sell": 22,
+                "yield": 1,
+                "grow": "7 days",
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 7,
+                "id": "suckerstem",
+                "name": "Suckerstem",
+                "buy": 10,
+                "sell": 18,
+                "yield": 1,
+                "grow": "6 days",
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "index": 8,
+                "id": "tombmelon",
+                "name": "Tombmelon",
+                "buy": 8,
+                "sell": 10,
+                "yield": 1,
+                "grow": "3 days",
+                "regrow": 0,
+                "seasons": [
+                    "Summer",
+                    "Fall",
+                    "Winter",
+                    "Spring"
+                ]
+            }
+        ]
+    },
+    "events": {
+        "spring": [
+            {
+                "day": 1,
+                "name": "Darius"
+            },
+            {
+                "day": 5,
+                "name": "Weedil",
+                "boss": "true"
+            },
+            {
+                "day": 10,
+                "name": "Lynn"
+            },
+            {
+                "day": 13,
+                "name": "Nathaniel",
+                "festival": true
+            },
+            {
+                "day": 15,
+                "name": "Krusty",
+                "boss": "true"
+            },
+            {
+                "day": 18,
+                "name": "Wesley"
+            },
+            {
+                "day": 24,
+                "name": "Claude"
+            },
+            {
+                "day": 28,
+                "name": "Lantern Festival",
+                "festival": true
+            }
+        ],
+        "Summer": [
+            {
+                "day": 2,
+                "name": "The Hungry Slime",
+                "boss": "true"
+            },
+            {
+                "day": 5,
+                "name": "Liam"
+            },
+            {
+                "day": 14,
+                "name": "Musical Festival",
+                "festival": true
+            },
+            {
+                "day": 15,
+                "name": "Herman",
+                "boss": "true"
+            },
+            {
+                "day": 20,
+                "name": "Lucia"
+            },
+            {
+                "day": 22,
+                "name": "Iris"
+            },
+            {
+                "day": 25,
+                "name": "Catherine"
+            },
+            {
+                "day": 28,
+                "name": "Beach BBQ",
+                "festival": true
+            }
+        ],
+        "Fall": [
+            {
+                "day": 4,
+                "name": "Dr.Wornhardt"
+            },
+            {
+                "day": 11,
+                "name": "Xyla"
+            },
+            {
+                "day": 17,
+                "name": "Donovan"
+            },
+            {
+                "day": 23,
+                "name": "Vivi"
+            },
+            {
+                "day": 28,
+                "name": "Halloween",
+                "festival": true
+            }
+        ],
+        "Winter": [
+            {
+                "day": 3,
+                "name": "Vaan"
+            },
+            {
+                "day": 11,
+                "name": "Jun"
+            },
+            {
+                "day": 17,
+                "name": "Kai"
+            },
+            {
+                "day": 21,
+                "name": "Anne"
+            },
+            {
+                "day": 23,
+                "name": "Kitty"
+            },
+            {
+                "day": 28,
+                "name": "Winter Festival",
+                "festival": true
+            }
+        ]
+    }
+}

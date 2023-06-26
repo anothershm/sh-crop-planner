@@ -1,4 +1,4 @@
-import { Seasons } from "../common/config";
+import { Seasons } from "../common/constants";
 import './seasonPicker.css'
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -16,8 +16,8 @@ function SeasonPicker({ season, setSeason }) {
         <div id="season_picker" className="row">
             {seasonArray.map((item, i) =>
                 <div className="col">
-                    <div className={"sh-btn season " + (season == item ? "active" : "deactive")} onClick={() => setSeason(item)}>
-                        <img src={icons[i]} className="image" />
+                    <div className={"sh-btn season " + (season === item ? "active" : "deactive")} onClick={() => setSeason(item)}>
+                        <img src={icons[i]} alt="icon of the season" className="image" />
                         <div className="name">{item}</div>
 
 

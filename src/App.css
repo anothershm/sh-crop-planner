@@ -16,7 +16,7 @@
 	border: 1px solid #aaa;
 	padding: 15px;
 	margin-bottom: 10px;
-	max-width: var(--ccontent_max_width);
+	max-width: var(--content_max_width);
 	width: auto;
 	min-height: 845px;
 }

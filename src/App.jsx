@@ -7,7 +7,7 @@ import InformationalMenu from './informationalMenu/informationalMenu';
 import SeasonPicker from './season-picker/seasonPicker';
 import Calendar from './calendar/calendar';
 
-import { Seasons, FarmType, Config } from './common/config';
+import { Seasons, FarmType } from './common/constants';
 
 
 function App() {

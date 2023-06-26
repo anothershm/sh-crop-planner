@@ -3,3 +3,17 @@ index.html > change description
 informationalMenu > remove commentary
 How to update the json automatically > Api with ChatGPT, scrap the wifi for the json. "How I use GPT scrapper to let chatgpt access the internet"
 Desinstall VS and .NET 
+
+Season picker profit debajo del nombre
+ <div class="profit min hidden-xs" ng-show="self.cfarm().totals.season[season.index].profit.min==self.cfarm().totals.season[season.index].profit.max">
+                        <div>{{self.cfarm().totals.season[season.index].profit.min>0 && '+' || ''}}{{self.cfarm().totals.season[season.index].get_profit(1)}}g</div>
+                    </div>
+                	
+                    <div class="profit hidden-xs" ng-show="self.cfarm().totals.season[season.index].profit.min!=self.cfarm().totals.season[season.index].profit.max">
+                        <i class="asc_icon fa fa-sort-amount-asc"></i>
+                        <div>{{self.cfarm().totals.season[season.index].profit.min>0 && '+' || ''}}{{self.cfarm().totals.season[season.index].get_profit(1)}}g</div>
+                        <div>{{self.cfarm().totals.season[season.index].profit.max>0 && '+' || ''}}{{self.cfarm().totals.season[season.index].get_profit(1, 1)}}g</div>
+                    </div>
+
+
+informationalmenu la otra parte

@@ -4,7 +4,7 @@ import '../common.css'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretRight, faCaretLeft } from '@fortawesome/free-solid-svg-icons'
-import { FarmType } from '../common/config'
+import { FarmType } from '../common/constants'
 
 import sunHavenIcon from './farms-icons/0.png'
 
@@ -60,13 +60,13 @@ function FarmPicker({ farm, onChangeFarm }) {
     }
 
     function getImg(nextValue) {
-        if (nextValue == 0) {
+        if (nextValue === 0) {
             return sunHavenIcon
         }
-        if (nextValue == 1) {
+        if (nextValue === 1) {
             return nervariIcon
         }
-        if (nextValue == 2) {
+        if (nextValue === 2) {
             return withergateIcon
         }
     }
@@ -74,7 +74,7 @@ function FarmPicker({ farm, onChangeFarm }) {
     return (
         <div className="btn-group">
             <button className='sh-btn' onClick={handleClick}>
-                <img id='farmSelector' src={sunHavenIcon} height='35px' width='35px' />
+                <img id='farmSelector' src={sunHavenIcon} alt="the icon of the farm selected" height='35px' width='35px' />
             </button>
         </div >
     );

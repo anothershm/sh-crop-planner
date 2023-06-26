@@ -6,7 +6,7 @@ import './header.css';
 function Header() {
     return (
         <header>
-		<img src={logo} className="logo"/>
+		<img src={logo} className="logo" alt="logo of sun haven the game"/>
 		<div className="page_title">Crop Planner</div>
 	</header>
     );

@@ -12,7 +12,8 @@
 }
 
 :root {
-    --ccontent_max_width: 1400px;
+    --content_max_width: 1400px;
     --background-url:url(https://static.wikia.nocookie.net/sun-haven/images/0/03/Infobox_name.png/);
+    --border_color: #5E360C;
   }
   
