@@ -38,7 +38,7 @@ function App() {
           <>
           <InformationalMenu {...config} onChangeYear={onChangeYear.bind(this)}  onChangeFarm = {onChangeFarm.bind(this)} />
           <SeasonPicker season={season} setSeason={setSeason} />
-          <Calendar />
+          <Calendar season={season} />
           </>
         )}
       </div>
