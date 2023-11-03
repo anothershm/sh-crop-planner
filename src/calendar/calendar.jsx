@@ -1,10 +1,11 @@
 
 
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import { CropContext } from '../common/CropContext'
 import '../common.css'
 import './calendar.css';
 import configData from '../common/config.json';
-import PlantCropModal from './plant-crop/plantCropModal'; 
+import PlantCropModal from './plant-crop/plantCropModal';
 
 const importAll = (r) => {
     let images = {};
@@ -14,11 +15,15 @@ const importAll = (r) => {
     return images;
 };
 
-const images = importAll(require.context('./calendar-icons', false, /\.(png)$/));
+const imagesEvents = importAll(require.context('./calendar-icons', false, /\.(png)$/));
+const imagesCrops = importAll(require.context('../common/crops-icon', false, /\.(png)$/));
 
-function Calendar({ season, farmType, year}) {
+function Calendar({ season, farmType, year }) {
     const [isModalOpen, setModalOpen] = useState(false);
     const [dayModal, setDay] = useState(0);
+
+    const { cropsData } = useContext(CropContext);
+    const seasonData = cropsData[year]?.[farmType]?.[season]
 
     const SEASON_DAYS = 28;
     const calendarEvents = configData.events[season]
@@ -44,13 +49,25 @@ function Calendar({ season, farmType, year}) {
                 <div className="day_name">Sun</div>
             </div>
             <div className="day_container">
-                <PlantCropModal isOpen={isModalOpen} onClose={closeModal} day={dayModal} season={season} farmType={farmType} year={year}/>
+                <PlantCropModal isOpen={isModalOpen} onClose={closeModal} day={dayModal} season={season} farmType={farmType} year={year} />
                 {
                     [...Array(SEASON_DAYS)].map((x, i) => {
                         const foundEvent = calendarEvents.find((eventDay) => eventDay.day === i + 1);
                         const eventName = foundEvent ? foundEvent.name : '';
-                        const imageSrc = images[eventName + '.png']
-                        
+                        const imageSrc = imagesEvents[eventName + '.png'];
+
+                        const eventDiv = eventName ? (
+                            <div className='event'
+                                title={eventName}>
+                                <img src={imageSrc} alt={eventName} />
+                            </div>
+                        ) : null;
+
+                        const cropsForDay = seasonData ? seasonData[i + 1] : [];
+                        const cropImagesToPlant = cropsForDay ? cropsForDay.map((crop, i) => (
+                            <img key={i} className="cropImagesToPlant" src={imagesCrops[crop.id + '.png']} alt={crop.id} />
+                        )) : null;
+
                         const handleClick = () => {
                             openModal(i + 1);
                         };
@@ -59,14 +76,10 @@ function Calendar({ season, farmType, year}) {
                                 <div className="date_top">
                                     <div className="date">
                                         <span className="visible-xs">{i + 1}</span>
-                                        <div className='event'
-                                            title={eventName}>
-                                            <img src={imageSrc} alt={eventName} />
-                                        </div>
-
                                     </div>
-
                                 </div>
+                                {eventDiv}
+                                {cropImagesToPlant}
                             </div>
                         )
                     }
