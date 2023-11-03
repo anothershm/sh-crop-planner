@@ -7,7 +7,7 @@
                 "name": "Armoranth",
                 "buy": 60,
                 "sell": 75,
-                "yeld": 1,
+                "yield": 1,
                 "grow": 4,
                 "regrow": 0,
                 "seasons": [
@@ -21,7 +21,7 @@
                 "name": "Cranberry",
                 "buy": 300,
                 "sell": 40,
-                "yeld": 1,
+                "yield": 1,
                 "grow": 7,
                 "regrow": 2,
                 "seasons": [
@@ -34,7 +34,7 @@
                 "name": "Honeysuckle",
                 "buy": 400,
                 "sell": 35,
-                "yeld": 2,
+                "yield": 2,
                 "grow": 10,
                 "regrow": 3,
                 "seasons": [
@@ -48,7 +48,7 @@
                 "name": "Cotton",
                 "buy": 250,
                 "sell": 15,
-                "yeld": 3,
+                "yield": 3,
                 "grow": 5,
                 "regrow": 3,
                 "seasons": [
@@ -62,7 +62,7 @@
                 "name": "Chocoberry",
                 "buy": 45,
                 "sell": 12,
-                "yeld": 3,
+                "yield": 3,
                 "grow": 6,
                 "regrow": 0,
                 "seasons": [
@@ -76,7 +76,7 @@
                 "name": "Coffee Bean",
                 "buy": 200,
                 "sell": 35,
-                "yeld": 1,
+                "yield": 1,
                 "grow": 7,
                 "regrow": 3,
                 "seasons": [
@@ -90,7 +90,7 @@
                 "name": "Candy Cane",
                 "buy": 300,
                 "sell": 40,
-                "yeld": 1,
+                "yield": 1,
                 "grow": 3,
                 "regrow": 2,
                 "seasons": [
@@ -103,7 +103,7 @@
                 "name": "Candy Cane",
                 "buy": 300,
                 "sell": 40,
-                "yeld": 1,
+                "yield": 1,
                 "grow": 3,
                 "regrow": 2,
                 "seasons": [
@@ -116,7 +116,7 @@
                 "name": "Durian",
                 "buy": 180,
                 "sell": 340,
-                "yeld": 1,
+                "yield": 1,
                 "grow": 9,
                 "regrow": 0,
                 "seasons": [
@@ -130,7 +130,7 @@
                 "name": "Pumpkin",
                 "buy": 300,
                 "sell": 575,
-                "yeld": 1,
+                "yield": 1,
                 "grow": 18,
                 "regrow": 0,
                 "seasons": [
@@ -143,7 +143,7 @@
                 "name": "Cinnaberry",
                 "buy": 175,
                 "sell": 220,
-                "yeld": 1,
+                "yield": 1,
                 "grow": 10,
                 "regrow": 0,
                 "seasons": [
@@ -156,7 +156,7 @@
                 "name": "Grapes",
                 "buy": 60,
                 "sell": 75,
-                "yeld": 1,
+                "yield": 1,
                 "grow": 1,
                 "regrow": 0,
                 "seasons": [
@@ -172,7 +172,7 @@
                 "name": "Green Beans",
                 "buy": 200,
                 "sell": 20,
-                "yeld": 1,
+                "yield": 1,
                 "grow": 13,
                 "regrow": 1,
                 "seasons": [
@@ -185,7 +185,7 @@
                 "name": "Kale",
                 "buy": 100,
                 "sell": 150,
-                "yeld": 1,
+                "yield": 1,
                 "grow": 9,
                 "regrow": 0,
                 "seasons": [
@@ -198,7 +198,7 @@
                 "name": "Melon",
                 "buy": 200,
                 "sell": 350,
-                "yeld": 1,
+                "yield": 1,
                 "grow": 14,
                 "regrow": 0,
                 "seasons": [
@@ -968,7 +968,7 @@
                 ]
             }
         ],
-        "Ne'Vari ": [
+        "Nel'Vari": [
             {
                 "index": 1,
                 "id": "dragonFruit",
@@ -1146,7 +1146,7 @@
                 ]
             }
         ],
-        "WitherGate": [
+        "Withergate": [
             {
                 "index": 1,
                 "id": "demonOrb",

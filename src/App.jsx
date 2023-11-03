@@ -7,6 +7,7 @@ import InformationalMenu from './informationalMenu/informationalMenu';
 import SeasonPicker from './season-picker/seasonPicker';
 import Calendar from './calendar/calendar';
 
+import { CropProvider } from './common/CropContext';
 import { Seasons, FarmType } from './common/constants';
 
 
@@ -28,7 +29,10 @@ function App() {
   }
 
   return (
+
+<CropProvider>
     <div className="App">
+
       <Header />
 
       <div id="main_container" className="container">
@@ -36,14 +40,16 @@ function App() {
           <Loading />
         ) : (
           <>
-          <InformationalMenu {...config} onChangeYear={onChangeYear.bind(this)}  onChangeFarm = {onChangeFarm.bind(this)} />
-          <SeasonPicker season={season} setSeason={setSeason} />
-          <Calendar season={season} />
-          </>
+            <InformationalMenu {...config} onChangeYear={onChangeYear.bind(this)} onChangeFarm={onChangeFarm.bind(this)} />
+            <SeasonPicker season={season} setSeason={setSeason} />
+            <Calendar season={season} farmType={farmType} year={year}/>
+       </>
         )}
       </div>
-     
+
     </div>
+
+    </CropProvider>
   );
 }
 

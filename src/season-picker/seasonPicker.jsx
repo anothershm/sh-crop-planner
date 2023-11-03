@@ -15,12 +15,10 @@ function SeasonPicker({ season, setSeason }) {
     return (
         <div id="season_picker" className="row">
             {seasonArray.map((item, i) =>
-                <div className="col">
+                <div className="col" key={i}>
                     <div className={"sh-btn season " + (season === item ? "active" : "deactive")} onClick={() => setSeason(item)}>
                         <img src={icons[i]} alt="icon of the season" className="image" />
                         <div className="name">{item}</div>
-
-
                     </div>
                 </div>
             )}

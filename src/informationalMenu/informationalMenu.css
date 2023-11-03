@@ -21,6 +21,13 @@
 		padding: 0 15px;
 	}
 
+	.investment_info {
+		background-color: #DDD1B2;
+
+		>div {
+			border: 2px solid var(--border_color);
+		}
+	}
 
 	.year_navigation {
 
