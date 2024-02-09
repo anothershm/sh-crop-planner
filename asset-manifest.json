@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/sh-crop-planner/static/css/main.073c9b0a.css",
-    "main.js": "/sh-crop-planner/static/js/main.5eed5cb3.js",
+    "main.css": "/sh-crop-planner/static/css/main.3da19544.css",
+    "main.js": "/sh-crop-planner/static/js/main.d09b377d.js",
     "static/js/787.224b12cf.chunk.js": "/sh-crop-planner/static/js/787.224b12cf.chunk.js",
-    "static/media/logo.svg": "/sh-crop-planner/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo.png": "/sh-crop-planner/static/media/logo.c1c35d2a1eedd13a4865.png",
+    "static/media/0.png": "/sh-crop-planner/static/media/0.69c1892781cb6e32ebb7.png",
+    "static/media/1.png": "/sh-crop-planner/static/media/1.2d47ec7ba22f353cdb93.png",
+    "static/media/2.png": "/sh-crop-planner/static/media/2.e26b1d9eff32dbc816fa.png",
     "index.html": "/sh-crop-planner/index.html",
-    "main.073c9b0a.css.map": "/sh-crop-planner/static/css/main.073c9b0a.css.map",
-    "main.5eed5cb3.js.map": "/sh-crop-planner/static/js/main.5eed5cb3.js.map",
+    "main.3da19544.css.map": "/sh-crop-planner/static/css/main.3da19544.css.map",
+    "main.d09b377d.js.map": "/sh-crop-planner/static/js/main.d09b377d.js.map",
     "787.224b12cf.chunk.js.map": "/sh-crop-planner/static/js/787.224b12cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.5eed5cb3.js"
+    "static/css/main.3da19544.css",
+    "static/js/main.d09b377d.js"
   ]
 }
